@@ -1,11 +1,11 @@
 App Name: Quadrus 
 
-1. What problem am I solving? 
+1. What problem am I solving?
 - Editing and printing 2x2 and 1x1 picture using mobile phone. 
 2. Who has this problem? 
-- Printer shop staff. 
+- Printer shop staff and home printer owners who want a quick and easy way to create id. 
 3. How they are solving it now? 
 - Using a computer with editing software like adobe or using word. 
 4. What is the smallest version I can build? 
-- A version where User can: 
+- A version where User can:
 Upload a photo -> automatically remove the background -> select the size (2x2 or 1x1) -> select the paper size -> select a package -> Save as PDF or Print it.
