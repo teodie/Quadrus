@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>A4 Template Sandbox Editor</title>
+  <style>
+    /* 1. Standard A4 Print Definitions */
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      /* Grey desktop background for contrast */
+      font-family: Arial, sans-serif;
+    }
+
+    /* 2. Visual Canvas Frame (Visible on screen, safe for print) */
+    .a4-page {
+      width: 210mm;
+      height: 297mm;
+      margin: 20px auto;
+      /* Centers the sheet on your desktop monitor */
+      background: #ffffff;
+      /* White physical sheet paper background */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      /* Paper drop-shadow drop */
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* Keeps child positions mapped to this sheet */
+      box-sizing: border-box;
+      /* Global document protective padding */
+      overflow: hidden;
+      /* Clips elements extending past safe paper rules */
+    }
+
+    .size-2x2 {
+      height: 2in;
+      width: 2in;
+      background-color: aqua;
+    }
+
+    .size-1x1 {
+      height: 1in;
+      width: 1in;
+      background-color: aqua;
+    }
+
+    .container-2x2 {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      overflow: visible;
+      height: 2in;
+    }
+
+    .container-1x1 {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      overflow: visible;
+      height: 1in;
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Single A4 Sheet Block -->
+  <div class="a4-page">
+
+    <div>
+      <div style="border-bottom: .2mm solid black"></div>
+      <div class="container-2x2">
+        <div style="border-left: .2mm solid black; height: 2in;"></div>
+        <div class="size-2x2"></div>
+        <div style="border-left: .2mm solid black; height: 2in;"></div>
+        <div class="size-2x2"></div>
+        <div style="border-left: .2mm solid black; height: 2in;"></div>
+        <div class="size-2x2"></div>
+        <div style="border-left: .2mm solid black; height: 2in;"></div>
+        <div class="size-2x2"></div>
+        <div style="border-left: .2mm solid black; height: 2in;"></div>
+      </div>
+      <div style="border-bottom: .2mm solid black;"></div>
+    </div>
+    <div>
+      <div class="container-1x1">
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+        <div class="size-1x1"></div>
+        <div style="border-left: .2mm solid black; height: 1in;"></div>
+      </div>
+      <div style="border-bottom: .2mm solid black;"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
