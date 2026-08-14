@@ -1,0 +1,24 @@
+August 14 2026
+
+Experimenting with background removal using python rembg
+
+Creating new virtual environment
+comand: py -m venv .venv
+
+Activate virtual environment
+command: source .venv/Scripts/Activate
+
+Install rembg for cpu and cli
+ff. the documentation (https://github.com/danielgatis/rembg) installation
+pip install "rembg[cpu,cli]"
+
+Upgrading pip to latest version version of pip
+command: pip intall --upgrade pip
+failed due to pip running its own and can't overide it self
+command: python3.exe -m pip install --upgrade pip
+
+Installing Pillow library
+pip install Pillow
+
+Tried the rembg library and models.
+best model: u2net_human_seg
