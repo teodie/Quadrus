@@ -22,3 +22,42 @@ pip install Pillow
 
 Tried the rembg library and models.
 best model: u2net_human_seg
+
+August 16 2026
+
+Create React native app
+npx create-expo-app@latest Quadrus --template blank-typescript --no-agents-md
+
+Native wind installation
+npm install nativewind
+
+Install nativewind dependencies that is compatible with expo SDK installed
+npx expo install react-native-reanimated react-native-worklets react-native-safe-area-context
+
+Install native wind dependencies
+npm install "tailwindcss@^3.4.17" "prettier-plugin-tailwindcss@^0.5.11" --save-dev
+
+Initialize and create tailwind.config.css
+npx tailwindcss init
+
+Create and configure babel.config.js
+npx expo customize > babel.config.js
+
+Create and configure metro.config.js
+npx expo customize > metro.config.js
+
+Intalling missing dependencies in nativewind
+npm i react-native-css-interop
+
+Installing Expo router
+npx expo install expo-router react-native-screens expo-linking expo-constants
+
+Installing Jest
+npx expo install jest-expo jest @types/jest "--" --save-dev
+
+Error code ERESOLVE fix
+npx expo install jest-expo jest @types/jest -- --save-dev -- --legacy-peer-deps
+
+Installing react-native-testing-library
+npx expo install @testing-library/react-native "--" --dev
+npm install --save-dev test-renderer --legacy-peer-deps
