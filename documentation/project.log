@@ -61,3 +61,24 @@ npx expo install jest-expo jest @types/jest -- --save-dev -- --legacy-peer-deps
 Installing react-native-testing-library
 npx expo install @testing-library/react-native "--" --dev
 npm install --save-dev test-renderer --legacy-peer-deps
+
+Aug 17 2026
+
+Implementing path alias "@" as the root
+npm install --save-dev babel-plugin-module-resolver
+
+Installing lucide react for icons
+npm install lucide-react-native --legacy-peer-deps
+
+August 20, 2026
+Installing Expo-Image-Picker
+npx expo install expo-image-picker -- --legacy-peer-deps
+
+Installing Expo-Print
+npx expo install expo-print -- --legacy-peer-deps
+
+App Prof of Concept app now working
+Main Issues
+1. Print margin - The resulting printed document have margin.
+2. Server Response - The backend take too long to respond the image removed background.
+
